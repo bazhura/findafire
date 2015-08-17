@@ -1,37 +1,43 @@
+html {
+    width: 100%
+}
 body {
-  margin: 50;
-  padding: 30;
-  font-family: 'Open Sans', sans-serif;
-  background: url(http://subtlepatterns.com/patterns/wood_pattern.png);
+    margin: 50;
+    padding: 30;
+    font-family: 'Open Sans', sans-serif;
+    background: url(http://subtlepatterns.com/patterns/wood_pattern.png);
 }
 
-.container {
-  padding: 0 15px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+h2 {
+    padding: 0 15px;
+}
+.wrapper {
+    padding: 0 15px;
+}
+.container-map {
+    padding: 0 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-#map {
-  height: 76vh;
-  width: 80vw;
-  padding: 0 15px;
-  border-radius: 6px;
-  border: 1px solid grey;
-  box-shadow: 10px 10px 5px #888;
-  order: 1;
-}
-
-.ui-slider { 
-    margin-top: 20px 
+div#map {
+    height: 76vh;
+    width: 80vw;
+    padding: 0 15px;
+    border-radius: 4px;
+    border: 1px solid grey;
+    box-shadow: 10px 10px 5px #888;
+    order: 1;
 }
 
 #slider {
-  padding: 0 15px;
-  width: 80vw;
+    margin-top: 35px;
+    margin-left: 15px;
+    align-self: stretch;
 }
 
-#datepicker {
-  padding: 15 15px;
-  order: 2;
+div#datepicker {
+    padding: 0 15px;
+    order: 2;
 }
